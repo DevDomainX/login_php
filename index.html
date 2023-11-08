@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="programacion php" content="width=device-width, initial-scale=1.0">
+    <title>login php</title>
+</head>
+<body>
+    <?php
+        echo "Hola como estas?";
+    ?>
+    <br>
+    <br>
+    <form action="ingresar.php" method="POST" >
+        <label for="">Nombre:
+            <input type="text" name="nombre" placeholder="nombre" require>
+        </label>
+        <label for="">password:
+            <input type="password" name="pass" placeholder="password" require>
+        </label>
+        <br>
+        <br>
+        <center><input type="submit" value="enviar" name="boton"></center>
+
+    </form>
+</body>
+</html>
